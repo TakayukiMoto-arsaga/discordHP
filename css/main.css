@@ -1,0 +1,422 @@
+body {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.feature {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord-xbox {
+  margin-right: 16px;
+}
+
+.feature-text-bold {
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 3px;
+}
+
+.feature-text-normal {
+  font-weight: 400;
+}
+
+.read-more {
+  color: white;
+  margin-left: 16px;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 10px 16px;
+  background-color: #404eed;
+}
+
+.read-more:hover {
+  background-color: #7983f5;
+  box-shadow: 0 8px 15px rgb(200, 200, 200);
+}
+
+.scenery {
+  background-image: url(../assets/scenery.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 599px;
+}
+
+.discord-use-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord-home {
+  width: 124px;
+  height: 25px;
+  margin-right: 120px;
+  margin-top: 30px;
+  margin-bottom: -5px;
+  align-items: flex-end;
+}
+
+.nav-download-to-career {
+  color: white;
+  margin-right: 160px;
+}
+
+.nav-download-to-career-item {
+  padding: 0 10px;
+  margin: 0 10px;
+  align-items: flex-start;
+}
+
+.nav-download-to-career-item:hover {
+  text-decoration: underline;
+}
+
+.nav-login {
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 10px 16px;
+  background-color: white;
+}
+
+.nav-login:hover {
+  color: #5865f2;
+  box-shadow: 0 8px 15px rgb(80, 80, 80);
+}
+
+.please-try-to-imagine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 145px;
+  margin-bottom: 40px;
+  font-size: 56px;
+  color: white;
+}
+
+.dot {
+  font-weight: bold;
+}
+
+.please-try-to-imagine-sentence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.mac-browser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mac-download {
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  margin: 28px 24px 0 0;
+  background-color: white;
+}
+
+.mac-download:hover {
+  color: #5865f2;
+  box-shadow: 0 8px 15px rgb(80, 80, 80);
+}
+
+.download-arrow {
+  width: 16px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.download-arrow-blue {
+  width: 16px;
+  height: 20px;
+  margin-right: 8px;
+  display: none;
+}
+
+.mac-download:hover .download-arrow {
+  display: none;
+}
+
+.mac-download:hover .download-arrow-blue {
+  display: inline;
+}
+
+.discord-browser {
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  margin-top: 28px;
+  background-color: #23272a;
+}
+
+.discord-browser:hover {
+  background-color: #36393f;
+  box-shadow: 0 8px 15px rgb(80, 80, 80);
+}
+
+.channel-description {
+  display: flex;
+  justify-content: center;
+  padding: 263px 40px 120px;
+}
+
+.channel-description-left {
+  margin-top: -24px;
+  margin-right: 120px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.channel-description-right {
+  width: 380px;
+}
+
+.channel-description-right-sentence {
+  margin-top: 24px;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.voice-connected-description {
+  display: flex;
+  justify-content: center;
+  padding: 120px 40px;
+  background-color: #f6f6f6;
+}
+
+.voice-connected-description-left {
+  width: 380px;
+  margin-top: 70px;
+  margin-right: 120px;
+}
+
+.private-channel-description {
+  display: flex;
+  justify-content: center;
+  padding: 143px 40px 120px;
+}
+
+.private-channel-description-right {
+  width: 380px;
+  margin-top: 14px;
+}
+
+.technology-container {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 115px 40px 80px;
+}
+
+.technology-container-inside {
+  width: 980px;
+}
+
+.connected-technology {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.connected-description {
+  text-align: center;
+  margin-top: 22px;
+  font-size: 20px;
+  line-height: 1.6;
+  flex-flow: column;
+}
+
+.technology-connected {
+  margin-left: -103px;
+  margin-top: 16px;
+  width: 121%;
+}
+
+.ready-start-journey-mac {
+  display: flex;
+  justify-content: center;
+  height: 284px;
+  background-color: #f6f6f6;
+}
+
+.ready-start-journey {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: -18px;
+}
+
+.center {
+  margin-top: 58px;
+  text-align: center;
+}
+
+.mac-download-bottom {
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  background-color: #5865f2;
+}
+
+.mac-download-bottom:hover {
+  background-color: #7983f5;
+  box-shadow: 0 8px 15px rgb(200, 200, 200);
+}
+
+.mac-download-bottom:hover .download-arrow {
+  display: none;
+}
+
+.download-arrow-hover {
+  width: 16px;
+  height: 20px;
+  margin-right: 8px;
+  display: none;
+}
+
+.mac-download-bottom:hover .download-arrow-hover {
+  display: inline;
+}
+
+.footer-and-discord-register {
+  background-color: #23272a;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 45px;
+  padding-right: 40px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-column-1 {
+  margin-right: 180px;
+}
+
+.imagine {
+  color: #5865f2;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.national-flag-choice {
+  cursor: pointer;
+}
+
+.japan-national-flag {
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.japanese {
+  color: white;
+  font-size: 14px;
+}
+
+.v {
+  color: white;
+  padding-left: 8px;
+  font-size: 1px;
+  vertical-align: middle;
+}
+
+.icons {
+  margin-top: 24px;
+}
+
+.icons > a {
+  margin-right: 20px;
+}
+
+.twitter-icon {
+  height: 17px;
+  width: 20px;
+  padding-bottom: 1px;
+}
+
+.insta-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.facebook-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.youtube-icon {
+  height: 19px;
+  width: 24px;
+  padding-bottom: 2px;
+}
+
+.footer-column {
+  font-size: 16px;
+  margin-right: 90px;
+}
+
+.footer-column-title {
+  padding-top: 13px;
+  padding-bottom: 6px;
+  color: #5865f2;
+}
+
+.footer-column-content {
+  color: white;
+  padding-top: 13px;
+}
+
+.footer-column-content > a:hover {
+  text-decoration: underline;
+}
+
+.footer-column-last {
+  font-size: 16px;
+}
+
+.footer-discord-register-content {
+  border-top: 1px solid #5865f2;
+  display: flex;
+  justify-content: space-between;
+  width: min(93%, 1180px);
+  margin: 0 auto;
+}
+
+.discord-home-black {
+  margin: 38px 0 64px;
+  height: 24px;
+  width: 124px;
+}
+
+.register {
+  margin: 32px 0 64px;
+  color: white;
+  font-size: 14px;
+  border-radius: 40px;
+  padding: 11px 16px;
+  background-color: #5865f2;
+}
+
+.register:hover {
+  background-color: #7983f5;
+  box-shadow: 0 8px 15px rgb(30, 30, 30);
+}
